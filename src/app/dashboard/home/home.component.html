@@ -1,0 +1,35 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <div class="app-title">
+            Library Management System
+        </div>
+        <span class="toolbar-spacer"></span>
+
+
+
+        <!-- <div class="account-container">
+            <div class="user-name">
+                <div>{{user?.name}}</div>
+            </div>
+        </div> -->
+        <!-- <mat-icon class="expand-more-icon" [matMenuTriggerFor]="beforeMenu">expand_more</mat-icon>
+
+        <mat-menu class="toolbar-user-menu" #beforeMenu="matMenu" xPosition="before">
+            <div class="logout-container">
+                <div class="user-email">
+                    {{user?.email}}
+                </div>
+                <hr align="center" width="90%" />
+                <div class="logout-action" (click)="signOut()">
+                    Logout
+                </div>
+            </div>
+        </mat-menu> -->
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div style="height: 88vh;">
+    <router-outlet></router-outlet>
+</div>
